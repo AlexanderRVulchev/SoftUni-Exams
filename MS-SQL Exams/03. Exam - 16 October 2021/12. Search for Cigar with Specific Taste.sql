@@ -3,13 +3,14 @@ CREATE PROC usp_SearchByTaste
 AS
 SELECT
     ci.CigarName,
-    '$' + CAST(ci.PriceForSingleCigar AS VARCHAR) AS Price,
-    @taste AS TasteType,
+    '$' + CAST(ci.PriceForSingleCigar AS varchar),
+    t.TasteType,
     b.BrandName,
-    CAST(s.Length AS VARCHAR) + ' cm' AS CigarLength,
-    CAST(s.RingRange AS VARCHAR)  + ' cm' AS CigarRingRange -- Error in description: No extra zero needed
+    CAST(s.Length AS VARCHAR) + ' cm',
+    CAST(s.RingRange AS varchar) + ' cm'
 FROM Cigars AS ci
+join Tastes AS t ON ci.TastId = t.Id
+join Sizes AS s ON ci.SizeId = s.Id
 JOIN Brands AS b ON ci.BrandId = b.Id
-JOIN Sizes AS s ON ci.SizeId = s.Id
-WHERE ci.TastId = (SELECT Id FROM Tastes WHERE TasteType = @taste)
-ORDER BY CigarLength ASC, CigarRingRange DESC
+WHERE t.TasteType = @taste
+ORDER BY s.Length ASC, s.RingRange DESC
