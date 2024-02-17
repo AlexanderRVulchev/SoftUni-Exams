@@ -1,0 +1,118 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 Inter;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* GENERAL LAYOUT */
+
+body {
+    background-image: url('images/background.jpg');
+}
+
+main {
+    max-width: 1220px;  
+    min-width: 700px;  
+    margin: auto;
+    display: flex;
+    gap: 2em;
+    padding: 2em;    
+}
+
+.card {
+    background-color: white;    
+    display: flex;
+    gap: 2em;
+    flex-grow: 1;
+    padding: 2em;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    object-fit: cover; 
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+
+/* LEFT SIDE SPECIFIC */
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    flex: 2 0 400px;
+}
+
+.left-side .image-container img {
+    width: 170px; 
+    height: 170px; 
+}
+
+.left-side i {
+    font-size: 54px;
+    padding-top: 0.5em;
+}
+
+.left-side p {
+    margin-bottom: 1.5em;
+}
+
+.left-side h3 {    
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* RIGHT SIDE SPECIFIC */
+
+.right-side {
+    flex: 1 0 200px;    
+}
+
+.right-side article {
+    flex-grow: 1;
+}
+
+.right-side i {
+    margin-top: 0.3em;
+    font-size: 72px;
+    margin-bottom: 0.7em;
+}
+
+.right-side .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.right-side .image-container img {
+    width: 80px; 
+    height: 80px;     
+}
+
+.right-side .credentials-container {
+    display: flex;
+    gap: 1em;    
+    align-items: center;    
+    border-top: 1px solid grey;
+    padding-top: 1em;
+}
+
+.right-side .credentials-container p {
+    font-size: 10px;
+}
+
+.right-side .credentials-info * {
+    margin: 0;
+}
