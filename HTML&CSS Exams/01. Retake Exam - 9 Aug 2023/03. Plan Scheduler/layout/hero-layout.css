@@ -1,0 +1,35 @@
+.hero {
+    background-image: url(../images/background.jpg);    
+    height: 600px;
+    background-position: bottom;
+    background-size: cover;    
+}
+
+.hero .hero-content {
+    display: block;    
+    width: 34em;
+    margin-left: 17%;
+}
+
+.hero .hero-content h2 {
+    padding: 3em 0 2em 0;
+    font-size: 48px;
+}
+
+.hero .hero-content p {
+    color: white;   
+    font-weight: bold;
+    margin-bottom: 3em; 
+}
+
+.hero .hero-content button {
+    border-radius: 6px;
+    background-color: black;    
+    border: none;
+    padding: 1em 1.5em;
+}
+
+.hero .hero-content button a {
+    text-decoration: none;
+    color: white;    
+}
