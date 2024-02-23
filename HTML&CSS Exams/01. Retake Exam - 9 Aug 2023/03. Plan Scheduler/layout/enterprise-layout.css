@@ -1,0 +1,51 @@
+.enterprise {
+    background-color: #D9D9D9;
+    padding: 2em 0;
+}
+
+.enterprise-container {
+    width: 90%;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.enterprise-container img {
+    width: 580px;
+    object-fit: cover;
+}
+
+.enterprise-container article {
+    display: flex;    
+    gap: 2em;
+}
+
+.enterprise-content {
+    padding: 2em 0;
+}
+
+.enterprise-content :nth-child(1) {
+    color: #555;
+    font-weight: 600;
+}
+
+.enterprise-content h2 {
+    font-size: 32px;
+    padding: 1.5em 0;
+}
+
+.enterprise-content :nth-child(3) {
+    color: #555;
+    padding-bottom: 0.5em;
+}
+
+.enterprise-content :nth-child(4) {
+    font-weight: 600;
+    color: black;
+}
+
+.enterprise-content :nth-child(5) {
+    color: #555;
+    padding-top: 4em;
+}
