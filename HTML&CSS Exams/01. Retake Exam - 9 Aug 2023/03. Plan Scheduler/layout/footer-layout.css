@@ -1,0 +1,24 @@
+footer {
+    height: 130px;
+    background-color: #D9D9D9;
+}
+
+.footer-container {
+    width: 62.5%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.footer-container nav {
+    width: 100%;
+}
+
+.footer-container nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
