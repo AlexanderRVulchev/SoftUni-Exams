@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    background-color: #D9D9D9;
+    padding: 1.5em 2em 1em 5em;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+
+header nav {    
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #343434;
+
+}
+
+header button {
+    padding: 0.6em 1em;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+}
