@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 16px/1.15 Inter;
+}
+
+body {
+    max-width: 1440px;
+    background-color: #D7D7D7;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 3.5em 6em 6em 4em;    
+}
+
+article {
+    width: 31.5%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 2px rgb(168, 168, 168, 0.4);
+    transition: transform 0.2s ease-in-out;
+}
+
+article:hover {
+    transform: scale(1.04);
+}
+
+.landscape-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card {
+    margin: 2em 2em 1.5em 2em;
+}
+
+.card h2 {
+    font-weight: 400;
+    margin: 0.4em 0 1.4em 0;
+}
+
+.card > :nth-child(1) {
+    font-weight: 700;
+    color: #666;
+}
+
+.card > :nth-child(3) {
+    color: #666;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #666;
+    padding-top: 1em;
+    margin-top: 2em;    
+}
+
+.author p {
+    padding-left: 0.5em;
+}
+
+.author span {
+    text-align: end;
+    flex-grow: 1;
+    color: #999;
+}
+
+.author img {
+    width: 50px;
+    height: 50px;       
+    object-fit: cover; 
+    border-radius: 50%;
+}
