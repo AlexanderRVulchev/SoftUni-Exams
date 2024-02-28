@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+@import url(layout/general-layout.css);
+@import url(layout/navbar-layout.css);
+@import url(layout/header-layout.css);
+@import url(layout/stats-layout.css);
+@import url(layout/hero-layout.css);
+@import url(layout/pricing-layout.css);
+@import url(layout/get-started-layout.css);
+@import url(layout/footer.css);
