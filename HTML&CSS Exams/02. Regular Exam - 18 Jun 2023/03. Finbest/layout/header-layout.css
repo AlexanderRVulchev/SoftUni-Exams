@@ -1,0 +1,32 @@
+header {
+    background-color: #ACE2DF;    
+    text-align: center;
+}
+
+header h1 {
+    font-size: 52px;
+    font-weight: 600;
+    padding-top: 1.6em;
+    padding-bottom: 0.45em;
+}
+
+header .download-container {
+    padding-bottom: 6.4em;
+}
+
+.download-container ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1.4em 2em;
+    border-radius: 5px;
+    margin: 0 0.5em;
+    font-size: 14px;
+}
+
+.download-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 3.2em;    
+}
