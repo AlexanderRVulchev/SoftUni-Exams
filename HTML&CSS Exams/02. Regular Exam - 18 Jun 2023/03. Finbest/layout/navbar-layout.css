@@ -1,0 +1,40 @@
+.nav-container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+.nav-container nav {
+    display: flex;
+    justify-content: space-between;    
+    font-size: 14px;    
+}
+
+.nav-container nav ul {
+    list-style: none;
+}
+
+.nav-container nav ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+.left-nav {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+}
+
+.right-nav {
+    display: flex;    
+    gap: 1.5em;
+    align-items: center;
+}
+
+.sign-up {
+    background-color: #ACE2DF;
+    border-radius: 5px;
+    padding: 0.9em 1.5em;
+    font-weight: 600;
+}
