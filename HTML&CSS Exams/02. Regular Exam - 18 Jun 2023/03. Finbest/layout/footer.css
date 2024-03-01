@@ -1,0 +1,28 @@
+footer {
+    background-color: #fff;
+}
+
+.footer-container {    
+    align-items: center;
+    display: flex;
+    max-width: 1350px;
+    height: 70px;
+    margin: auto;
+    font-size: 14px;
+}
+
+footer p {
+    flex-grow: 1;
+    padding-left: 3em;
+}
+
+footer nav ul {
+    list-style: none;    
+    display: flex;
+    gap: 1em;
+}
+
+footer nav ul li a {
+    text-decoration: none;        
+    color: #000;    
+}
