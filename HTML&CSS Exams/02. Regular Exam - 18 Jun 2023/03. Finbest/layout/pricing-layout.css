@@ -1,0 +1,161 @@
+.pricing {
+    background-color: #F3F5FA;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    max-width: 1350px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.pricing .pricing-plans-text {
+    margin-top: 3em;
+    background-color: #A9E1DE;
+    padding: 0.4em 0;
+    border-radius: 7px;
+    width: 8em;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.pricing > p {
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 0.8em;
+    margin-bottom: 2.1em;
+}
+
+.plans-container {
+    width: 100%;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 15px;    
+    background-color: white;
+    text-align: left;    
+    margin: auto auto 3.2em auto;
+}
+
+.plans-container ul {
+    list-style: none;
+}
+
+.plans-container a {
+    text-decoration: none;
+}
+
+.plans-container .card:nth-child(1),
+.plans-container .card:nth-child(2) {
+    border-right: 1px solid #ccc;
+}
+
+.plans-container .cards-container {
+    flex: 1.65 0 1%;
+    display: flex;
+    padding: 1.5em 0 1.8em 0;
+}
+
+.plans-container .card {
+    padding: 0 1.5em;
+}
+
+.plans-container .expand-card {
+    flex: 1 0 1%;
+    padding: 0 2em;
+}
+
+.card h4 {
+    padding-bottom: 1.45em;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 1.8em;
+}
+
+.card h4 :first-child {
+    font-size: 34px;
+}
+
+.card h4 :nth-child(2) {
+    font-weight: 400;
+    padding-left: 0.5em;
+    font-size: 15px;
+}
+
+.card h3,
+.expand-card h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.card > p {
+    font-size: 14px;
+    line-height: 1.45;
+    margin-bottom: 1.3em;
+}
+
+.card ul li,
+.expand-card ul li {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 2;
+    color: black;
+}
+
+.card button {
+    border: none;
+    margin: 3em 0 0 0;
+    width: 100%;
+    background-color: white;
+}
+
+.card button a {
+    display: block;    
+    background-color: #ACE2DF;
+    border-radius: 8px;
+    color: #333;
+    padding: 1.35em 0;
+    font-size: 15px;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+}
+
+.plans-container button a:hover {
+    transform: scale(1.05);    
+}
+
+.expand-card {
+    background-color: #ACE2DF;
+    padding: -1.5em -0.1em;
+    border-radius: 0 15px 15px 0;
+}
+
+.expand-card h3 {
+    margin-top: 1.3em;
+}
+
+.expand-card h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+
+.expand-card ul li {
+    font-size: 14px;
+}
+
+.expand-card button {
+    margin-top: 12.2em;
+    border: none;
+    width: 100%;
+    background-color: #ACE2DF;
+}
+
+.expand-card button a {
+    display: block;    
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    padding: 1.35em 0;
+    font-size: 15px;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+}
