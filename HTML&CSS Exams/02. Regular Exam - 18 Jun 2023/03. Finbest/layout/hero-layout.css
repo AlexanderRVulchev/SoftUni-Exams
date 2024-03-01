@@ -1,0 +1,51 @@
+.hero {
+    background-color: #ADE2DF;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container {
+    max-width: 1000px;
+    display: flex;
+}
+
+.hero-container .img-container {
+    padding: 0 2em;
+    border: 1px dashed #666;  
+}
+
+.hero-container img {
+    object-fit: cover;
+    width: 275px;
+    height: auto;           
+}
+
+.hero-container article {
+    padding: 4.5em 6em;
+    line-height: 1.5;
+}
+
+.hero-container article h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.hero-container article h4 {
+    padding-top: 1.5em;    
+}
+
+.hero-container article p {
+    margin-top: 0.6em;
+    font-size: 14px;    
+}
+
+.hero-container article :nth-child(5) {
+    margin-bottom: 2.5em;
+}
+
+.hero-container article a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+}
