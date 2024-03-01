@@ -1,0 +1,25 @@
+.get-started {    
+    background-color: #ACE2DF;     
+    text-align: center;
+}
+
+.get-started-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.get-started-container h2 {
+    font-size: 54px;
+    font-weight: 600;
+    padding-top: 1.5em;    
+}
+
+.get-started-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 0.4em;
+}
+
+.get-started-container .download-container {
+    padding-bottom: 6.4em;
+}
