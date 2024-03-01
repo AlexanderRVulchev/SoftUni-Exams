@@ -1,0 +1,29 @@
+.stats {
+    max-width: 1200px;
+    display: flex;  
+    margin: auto;  
+    padding: 1em;
+}
+
+.stat-card {
+    flex: 1 1 auto;    
+    border-left: 1px solid #999;
+    padding: 0 1em;
+    margin: 4em 0;
+    text-align: center;
+}
+
+.stat-card:last-child {
+    border-right: 1px solid #999;
+}
+
+.stat-card h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.stat-card p {
+    padding-top: 1.8em;
+    padding-bottom: 4.3em;
+}
+
