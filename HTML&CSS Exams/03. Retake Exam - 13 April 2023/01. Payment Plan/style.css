@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+
+* {
+    box-sizing: border-box;   
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 16px/1.5 Inter;
+    background-color: #fff;
+}
+
+body {
+    max-width: 1200px;
+    background-image: url(image/background.jpg);
+    background-size: cover;    
+    margin: auto;
+    padding: 3.25em 0;
+}
+
+main {
+    max-width: 1020px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+
+.card {
+    background-color: #fff;
+    padding: 1.5em 1.4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    height: 450px; 
+    margin: auto;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform:  scale(1.02);
+}
+
+.card.small {
+    height: 415px;
+}
+
+.card.medium {
+    height: 430px;
+}
+
+.card h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.card h3 :nth-child(1),
+.card h3 :nth-child(3) {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card h3 :nth-child(2) {
+    font-size: 52px;    
+    line-height: 1.2;
+}
+
+.card p {
+    font-size: 10px;
+}
+
+.card ul {
+    list-style: none;
+    font-size: 13px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.card a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    margin: 1em auto 0 0;
+    font-size: 12px;
+    padding: 0.9em 2em;
+    border-radius: 4px;
+}
+
+.card a:hover {
+    color: #000;
+    background-color: #ccc;
+}
