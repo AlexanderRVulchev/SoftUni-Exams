@@ -1,0 +1,38 @@
+.mission {
+    height: 560px;
+    text-align: center;
+}
+
+.mission-top h3 {
+    font-size: 22px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.mission-top p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.4;    
+}
+
+.mission-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 9em;
+    margin: 4em 6em 0 6em;
+}
+
+.mission-card i {
+    font-size: 135px;
+    color: #84DBFE;    
+}
+
+.mission-card h4 {
+    font-size: 20px;
+    padding-top: 1.5em;
+}
+
+.mission-card p {
+    margin-top: 1.5em;
+}
