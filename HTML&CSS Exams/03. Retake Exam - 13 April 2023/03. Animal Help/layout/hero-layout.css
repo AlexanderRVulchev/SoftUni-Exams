@@ -1,0 +1,57 @@
+.hero {
+    background-color: #84DBFE;
+    display: flex;
+    align-items: center;
+    height: 510px;    
+}
+
+.hero img {
+    height: inherit;
+    width: auto;
+}
+
+.hero .message {
+    width: 39.5%;
+    margin-left: 11%;
+    margin-right: 8em;
+}
+
+.hero .message h2 {
+    font-size: 30px;
+}
+
+.hero .message p {
+    margin-top: 2.5em;
+    font-size: 15px;
+}
+
+.hero .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5em;
+}
+
+.hero .message .buttons a {
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.8em 4.5em;
+    font-weight: 600;
+}
+
+.hero .message .buttons :nth-child(1):hover {
+    color: white;
+    background-color: #ccc;
+}
+
+.hero .message .buttons :nth-child(2) {
+    background-color: black;
+    color: white;
+}
+
+.hero .message .buttons :nth-child(2):hover {
+    background-color: #ccc;
+    color: black;
+}
