@@ -1,0 +1,24 @@
+footer {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+footer .social-links {
+    display: flex;
+    gap: 1.2em;
+    flex-grow: 1;
+    padding: 2em 0;
+}
+
+footer .social-links i {
+    color: #000;
+    font-size: 30px;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: 600;
+    margin: auto;
+}
