@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 16px/1.5 Arial, Sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+}
