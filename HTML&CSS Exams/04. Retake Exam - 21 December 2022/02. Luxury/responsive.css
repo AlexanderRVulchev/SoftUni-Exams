@@ -1,0 +1,97 @@
+@media screen and (max-width: 600px){
+    .div-header,
+    .gallery a,
+    .blog-title h4 span,
+    .blog a,
+    .blog img,
+    .magazine a,
+    header .options article a {
+        display: none;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    header .options {
+        flex-direction: column;        
+    }
+
+    header .options article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-blog {
+        width: 90%;
+    }
+
+    #about-blog p,
+    .blog-title h4 {
+        font-size: 12px;
+    }
+
+    .magazine-title h4 span {
+        font-size: 26px;
+    }
+
+    .magazine-title {
+        padding-left: 3em;
+    }
+    
+    .magazine-title h4,
+    .magazine-title h4 span {
+        font-size: 22px;
+    }
+
+    .magazine article {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .magazine-info {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 84%;
+    }
+
+    .magazine-info img {        
+        height: 140px;    
+        width: 100%;    
+    }
+
+    .magazine-info h2 {
+        padding-top: 2em;
+    }
+
+    .magazine-info p {
+        font-size: 15px;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    .magazine-info button {
+        margin-bottom: 1.5em;
+    }
+
+    footer {
+        margin-top: 70px;
+        flex-direction: column;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
