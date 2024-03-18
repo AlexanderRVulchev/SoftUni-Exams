@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 6em 1.5em 6em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Montserrat;
+    letter-spacing: -1px;
+}
+
+nav img {
+    height: 40px;
+    width: auto;
+}
