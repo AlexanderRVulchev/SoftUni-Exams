@@ -1,0 +1,11 @@
+footer {
+    height: 80px;
+    background-color: #54536C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #948FA5;
+    font-weight: 500;
+    letter-spacing: -0.5px;    
+}
+
