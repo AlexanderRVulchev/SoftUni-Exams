@@ -1,0 +1,31 @@
+.financing {
+    max-width: 1200px;
+    margin: 100px auto 0 auto;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 135px;
+}
+
+.financing h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.financing p {
+    margin-top: 1.2em;
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: -0.3px;
+}
+
+.financing-content :last-child {
+    margin-top: 0;
+}
+
+.financing img {
+    width: auto;
+    height: 125px;
+}
