@@ -1,0 +1,72 @@
+.course-types {
+    max-width: 1080px;
+    margin: 95px auto 0 auto;
+    color: #444;
+    font-weight: 500;
+}
+
+.course-types .text-content {
+    text-align: center;
+}
+
+.course-types h3 {
+    font-size: 24px;
+    text-align: start;
+}
+
+.course-types p {    
+    text-align: start;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.course-types table {
+    width: 100%;
+}
+
+.course-types tbody :first-child {
+    border-radius: 8px 8px 0 0;
+}
+
+.course-types tbody :last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+.course-types table tr {
+    display: flex;
+    padding: 1em 1em 0.5em 1em;
+    align-items: center;
+}
+
+.course-types table tbody > :nth-child(odd) {
+    background-color: #E6E6E6;
+}
+
+.course-types table tbody > :nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.course-types tr td {
+    width: 15%;
+}
+
+.course-types tr :nth-child(2),
+.course-types tr :nth-child(3) {
+    text-align: center;
+}
+
+.course-types tr :first-child {
+    flex-grow: 1;
+}
+
+.course-types i.fa-check {
+    color: green;
+    font-size: 24px;    
+}
+
+.course-types i.fa-xmark {
+    color: red;
+    font-size: 28px;
+}
