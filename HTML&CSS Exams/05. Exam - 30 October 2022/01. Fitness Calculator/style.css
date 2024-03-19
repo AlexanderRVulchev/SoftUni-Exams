@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 16px/1.5 "Open Sans";
+}
+
+main {
+    max-width: 1350px;
+    display: flex;
+    margin: 3.5em auto;
+    border-radius: 30px;
+    box-shadow: 0 20px 40px 5px rgb(128, 128, 128, 0.4);
+    background-color: #F6F7F8;
+}
+
+main img {
+    width: 50%;
+    height: auto;
+    border-radius: 15px 0 0 15px;
+    object-fit: cover;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 30px;
+    margin: 2.2em 0;
+}
+
+.units-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.units-container a {
+    text-decoration: none;
+    color: black;
+    padding: 0.4em 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #83DA69;
+}
+
+.units-container :nth-child(2) {
+    background-color: #E0E0DF;
+    padding: 0.4em 2em;
+}
+
+.content label {
+    font-weight: 600;
+}
+
+.gender-input {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.gender-input select {
+    width: 30%;
+}
+
+.gender-input input {
+    width: 25%;
+}
+
+.weight-wrapper input {
+    width: 80%;
+    padding: 0.5em;
+}
+
+.height-input {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.height-input > * {
+    width: 40%;
+    padding: 0.2em;
+}
+
+.content button {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 3.5em auto;
+    background-color: #00A0D1;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    font-weight: 600;
+    font-size: 19px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 15px 20px 5px rgb(128, 128, 128, 0.2);
+}
+
+.content label {
+    display: block;
+    margin: 1em 0;
+}
+
+.gender-wrapper label {
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+.weight-wrapper label {
+    margin-bottom: 0;
+}
+
+.height-wrapper label {
+    margin-top: 1.5em;
+}
