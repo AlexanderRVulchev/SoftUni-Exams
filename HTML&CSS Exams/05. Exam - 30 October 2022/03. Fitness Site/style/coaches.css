@@ -1,0 +1,35 @@
+.coaches {
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coaches-container {    
+    max-width: 1260px;
+    margin: auto;
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-between;
+}
+
+.coach-card {
+    width: 22.5%;
+    text-align: center;
+    padding-bottom: 2.5em;
+}
+
+.coach-card h4 {
+    margin: 0.6em auto;
+}
+
+.coach-card img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.coach-card p {
+    color: #A7A7A7;
+    padding: 1.2em 1em;
+}
