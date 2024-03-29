@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 13px/1.5 Mulish;
+}
+
+body {
+    background-color: #EFCACB;
+}
+
+main {
+    max-width: 1920px;    
+    margin: 0 auto;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    padding: 12em;
+}
+
+.register-wrapper {
+    max-width: 860px;
+    margin: auto;
+    background-image: url(images/form-background.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 2em;
+    box-shadow: 20px 20px 10px 0px rgb(128,128,128,1);
+}
+
+form {
+    max-width: 460px;
+    padding: 6.5em 2em 4.5em 4.5em;    
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+
+form label {
+    color: #666;
+    padding: 0.5em 0;
+}
+
+form h1 {
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.names {
+    display: flex;
+    gap: 2em;
+}
+
+.first-name input,
+.last-name input,
+.e-mail input,
+.password input,
+.confirm-password input{
+    border-radius: 2em;
+    padding: 0.9em 1em;
+    border: 1px solid #999;
+    background-color: #FAFAFA;
+}
+
+.first-name input,
+.last-name input {
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+.e-mail,
+.password,
+.confirm-password {
+    display: flex;
+    flex-direction: column;
+}
+
+.terms {
+    margin-top: 0.5em;
+}
+
+.terms input {
+    background-color: gray;
+}
+
+form .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+form button {
+    padding: 0.9em 2em;
+    color: white;
+    background-color: #AF3D34;
+    border: none;
+    border-radius: 4em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: lightblue;
+    color: black;
+}
